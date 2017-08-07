@@ -1,0 +1,17 @@
+var express = require('express');
+var router = new express.Router();
+
+// not being used ???
+// router.use('/films', require('.films.js'));
+
+
+// these two requests not accessible ???
+// router.get('/', function(req, res) {
+//   res.json({data: 'Welcome'});
+// });
+
+// router.get('/about', function(req, res) {
+//   res.json({data: 'All about us'});
+// });
+
+module.exports = router;
